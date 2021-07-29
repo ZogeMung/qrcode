@@ -1,0 +1,48 @@
+html{
+    font-size: 24px;
+    font-family: "微软雅黑";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C5CEB6;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content{
+    width: 400px;
+    height: 600px;
+    background-color: #DAD7CD;
+    border: 5px solid #588157;
+    border-radius: 50px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    font-size: 1rem;
+    margin: 50px auto;
+    padding: .5rem;
+    background: none;
+    border: 2px solid #344E41;
+    outline: none;
+}
+
+#qrcode {
+    margin: auto;
+    width: 256px;
+    height: 256px;
+    padding: .6rem;
+    background: #DAD7CD;
+    border: 3px solid #344E41;
+    border-radius: 20px;
+}
